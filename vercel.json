@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/create-checkout.ts": {
+      "memory": 256
+    }
+  }
+}
