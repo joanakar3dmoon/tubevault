@@ -2,6 +2,9 @@
   "functions": {
     "api/create-checkout.ts": {
       "memory": 256
+    },
+    "api/webhook.ts": {
+      "memory": 256
     }
   }
 }
