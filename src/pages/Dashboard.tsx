@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 export default function Dashboard() {
   // Auto-login como propietario
   useEffect(() => {
