@@ -6,5 +6,11 @@
     "api/webhook.ts": {
       "memory": 256
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
