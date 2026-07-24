@@ -1,4 +1,16 @@
 export default function Dashboard() {
+  // Auto-login como propietario
+  useEffect(() => {
+    const saved = localStorage.getItem("tubevault_user")
+    if (!saved) {
+      localStorage.setItem("tubevault_user", JSON.stringify({
+        id: "owner-joan",
+        email: "joanlazaro83@gmail.com",
+        name: "Joan r3dm",
+        role: "admin"
+      }))
+    }
+  }, [])
   return (
     <div className="dashboard">
       <div className="container">
