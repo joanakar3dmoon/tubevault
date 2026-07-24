@@ -18,7 +18,16 @@ export default function Dashboard() {
         <div className="dashboard-header">
           <h1>Panel de control</h1>
           <p>Tus estadísticas de contenido evergreen</p>
-        </div>
+        
+      {/* Amazon Affiliate */}
+      <div className="container" style={{marginTop: 40, marginBottom: 20}}>
+        <a href="https://www.amazon.es/s?k=equipo+streaming+youtuber&tag=r3dm01-21" 
+           target="_blank" rel="nofollow sponsored"
+           style={{display:'block', padding:20, background:'#13131a', borderRadius:12, border:'1px solid #ff9900', textAlign:'center', color:'#ff9900', fontWeight:700, fontSize:14}}>
+          🛒 Equipo para creadores recomendado por TubeVault → Amazon
+        </a>
+      </div>
+</div>
 
         <div className="stats-grid">
           <div className="stat-card">
@@ -77,3 +86,11 @@ export default function Dashboard() {
     </div>
   )
 }
+      {/* Amazon Affiliate */}
+      <div className="container" style={{marginTop: 40, marginBottom: 20}}>
+        <a href="https://www.amazon.es/s?k=equipo+streaming+youtuber&tag=r3dm01-21" 
+           target="_blank" rel="nofollow sponsored"
+           style={{display:'block', padding:20, background:'#13131a', borderRadius:12, border:'1px solid #ff9900', textAlign:'center', color:'#ff9900', fontWeight:700, fontSize:14}}>
+          🛒 Equipo para creadores recomendado por TubeVault → Amazon
+        </a>
+      </div>
