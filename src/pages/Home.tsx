@@ -85,6 +85,34 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+
+      {/* AMAZON AFILIADOS */}
+      <section className="amazon-affiliates">
+        <div className="container">
+          <h2>🛒 Equipo recomendado</h2>
+          <p className="subtitle">Productos que usamos para crear contenido evergreen</p>
+          <div className="grid-3">
+            <a href="https://www.amazon.es/s?k=microfono+usb+streaming&tag=r3dm01-21" target="_blank" rel="nofollow sponsored" className="card affiliate-card">
+              <h3>🎙️ Micrófonos USB</h3>
+              <p>Para narración y voiceover con calidad profesional</p>
+              <span className="amazon-link">Ver en Amazon →</span>
+            </a>
+            <a href="https://www.amazon.es/s?k=software+edicion+video&tag=r3dm01-21" target="_blank" rel="nofollow sponsored" className="card affiliate-card">
+              <h3>🎬 Software edición</h3>
+              <p>Las mejores herramientas para editar vídeo evergreen</p>
+              <span className="amazon-link">Ver en Amazon →</span>
+            </a>
+            <a href="https://www.amazon.es/s?k=auriculares+monitor+estudio&tag=r3dm01-21" target="_blank" rel="nofollow sponsored" className="card affiliate-card">
+              <h3>🎧 Auriculares monitor</h3>
+              <p>Sonido preciso para producción de contenido</p>
+              <span className="amazon-link">Ver en Amazon →</span>
+            </a>
+          </div>
+          <p className="affiliate-disclaimer">Como afiliado de Amazon, ganamos comisiones por compras calificadas.</p>
+        </div>
+      </section>
+
     </>
   )
 }
